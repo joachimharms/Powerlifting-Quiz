@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e9c59dd2cac757c5017fd92f06e2da6867b88981\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.2_11db003c51483a4278a60228472ddcdcf82bd77d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-26.0.0-alpha1_c979b2ddfb4488859c03818a63e38060be156519\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-26.0.0-alpha1_b6d7e8983717b58d9a3375fc2a4e481e2a107504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-26.0.0-alpha1_b14934e95d829d3c35bcbebcd80220af703c7a40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-26.0.0-alpha1_15f7593d151d7521bda5abf24c6735969c2370b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-26.0.0-alpha1_c6d069ce748bc2113d61a8c85ead09fac422399b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e9392199ab00a3bbb29ad61a637c463a10f67d92">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bff3772b517725edd4cb0f7508eca03596b8ea71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-26.0.0-alpha1_583b3cbc75b579870a26fdd6850354746096b254\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_6139ff69b85a3514ac54fe09651f53e9117b70d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-26.0.0-alpha1_35a47f1dc22b08851386d8a0f430a96ab4396e76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-26.0.0-alpha1_73b5d2ce7449ae89667c7581167cd15ce7b7e3b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files (x86)\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_5f441e7f845f8453f3c07d9dc66150c1dc95a8d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\MeineDateien_HP\2.Dev\2.PrivateProjects\Android\Powerlifting-Quiz\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-26.0.0-alpha1_9853607750e7bc43d4580f00c129daf671003407\classes.dex" />
+    </item>
+
+</items>
