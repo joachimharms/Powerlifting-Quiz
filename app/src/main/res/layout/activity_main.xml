@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.powerliftingquiz.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
+    >
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="com.example.android.powerliftingquiz.MainActivity"
+
               android:orientation="vertical"
     >
 
@@ -78,6 +84,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         android:text="How many attempts for each lift individual does a lifter get in a sanctioned competition?"
 
         />
@@ -94,20 +105,23 @@
 
         <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
             <RadioButton
+                android:layout_above="@+id/radio_button_left_bottom"
                 android:id="@+id/radio_button_left_top"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="Squat"
+                android:text="2"
 
                 />
             <RadioButton
                 android:id="@+id/radio_button_left_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Overhead press"
+                android:text="1"
                 android:layout_marginLeft="16dp"
 
 
@@ -118,19 +132,19 @@
 
 
             <RadioButton
+                android:layout_above="@+id/radio_button_right_bottom"
                 android:id="@+id/radio_button_right_top"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bench press"
+                android:text="5"
                 android:layout_marginLeft="16dp"
                 />
             <RadioButton
                 android:id="@+id/radio_button_right_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deadlift"
+                android:text="3"
                 android:layout_marginLeft="16dp"
-
                 />
         </RadioGroup>
 
@@ -162,7 +176,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="3Which lifts are used in Powerlifting competitions?"
+
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+
+        android:text="The year was 2008. Was powerlifting an Olympic sport?"
 
         />
 
@@ -174,52 +195,33 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
-        <LinearLayout
-            android:layout_width="wrap_content"
+
+        <RadioGroup
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <CheckBox
+            android:orientation="horizontal">
+            <RadioButton
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="Squat"
+                android:text="Yes"
 
                 />
-            <CheckBox
+        <RadioButton
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Overhead press"
+                android:text="No"
                 android:layout_marginLeft="16dp"
 
 
                 />
+        </RadioGroup>
 
-        </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <CheckBox
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bench press"
-                android:layout_marginLeft="16dp"
-                />
-            <CheckBox
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Deadlift"
-                android:layout_marginLeft="16dp"
-
-                />
-        </LinearLayout>
     </LinearLayout>
 
 
@@ -247,8 +249,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="4Which lifts are used in Powerlifting competitions?"
-
+        android:text="Who were famous powerlifting champions?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         />
 
 
@@ -267,18 +273,18 @@
             android:orientation="vertical">
 
             <CheckBox
-
+                android:id="@+id/checkbox_pl_name_left_top"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
-                android:text="Squat"
+                android:text="Michael Schumacher"
 
                 />
             <CheckBox
-
+                android:id="@+id/checkbox_pl_name_right_top"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Overhead press"
+                android:text="Kirk Karkowski"
                 android:layout_marginLeft="16dp"
 
 
@@ -292,17 +298,17 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <CheckBox
-
+                android:id="@+id/checkbox_pl_name_left_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bench press"
+                android:text="Ed Coan"
                 android:layout_marginLeft="16dp"
                 />
             <CheckBox
-
+                android:id="@+id/checkbox_pl_name_right_bottom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Deadlift"
+                android:text="Andrey Malanichev"
                 android:layout_marginLeft="16dp"
 
                 />
@@ -339,8 +345,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="5Which lifts are used in Powerlifting competitions?"
-
+        android:text="Powerlifters usually wear special powerlifting gear for meets. What is a powerlifting meet called when lifters do not wear that gear?"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
         />
 
 
@@ -424,3 +434,4 @@
 
 
 </LinearLayout>
+</ScrollView>
