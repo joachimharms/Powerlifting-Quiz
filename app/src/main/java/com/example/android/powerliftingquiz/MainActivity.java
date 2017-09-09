@@ -22,13 +22,12 @@ public class MainActivity extends AppCompatActivity
     public void checkQuestFive()
     {
         EditText editText = (EditText) findViewById(R.id.edit_text_view);
-        String ans = editText.getText().toString();
-        if(ans.contains("raw") || ans.contains("Raw"))
+        String ans = editText.getText().toString().toLowerCase();
+        if(ans.contains("raw"))
         {
             score ++;
             Log.v("MainActivity", "Value: " + score);
         }
-
     }
 
 
