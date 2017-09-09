@@ -276,5 +276,16 @@
             android:hint="Enter your answer"
             android:inputType="textCapWords"
             android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit my answers!"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
     </LinearLayout>
 </ScrollView>
