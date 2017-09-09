@@ -169,7 +169,7 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-
+                    android:id="@+id/radiobutton_yes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -178,7 +178,7 @@
                     />
 
                 <RadioButton
-
+                    android:id="@+id/radiobutton_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -216,7 +216,7 @@
                 android:orientation="vertical">
 
                 <CheckBox
-                    android:id="@+id/checkbox_pl_name_left_top"
+                    android:id="@+id/checkbox_schumacher"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -225,7 +225,7 @@
                     />
 
                 <CheckBox
-                    android:id="@+id/checkbox_pl_name_right_top"
+                    android:id="@+id/checkbox_karkowski"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
@@ -241,14 +241,14 @@
                 android:orientation="vertical">
 
                 <CheckBox
-                    android:id="@+id/checkbox_pl_name_left_bottom"
+                    android:id="@+id/checkbox_coan"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
                     android:text="Ed Coan"/>
 
                 <CheckBox
-                    android:id="@+id/checkbox_pl_name_right_bottom"
+                    android:id="@+id/checkbox_malanichev"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
