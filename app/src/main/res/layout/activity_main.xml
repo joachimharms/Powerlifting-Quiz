@@ -2,10 +2,10 @@
 
 <!--Hello World-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context="com.example.android.powerliftingquiz.MainActivity"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.android.powerliftingquiz.MainActivity"
 
     >
 
@@ -52,7 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Overhead press" />
+                    android:text="Overhead press"/>
 
             </LinearLayout>
 
@@ -66,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Bench press" />
+                    android:text="Bench press"/>
 
                 <CheckBox
                     android:id="@+id/checkbox_deadlift"
@@ -126,14 +126,14 @@
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/radio_button_right_bottom"
                     android:layout_marginLeft="16dp"
-                    android:text="5" />
+                    android:text="5"/>
 
                 <RadioButton
                     android:id="@+id/radio_button_right_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="3" />
+                    android:text="3"/>
             </RadioGroup>
 
         </LinearLayout>
@@ -203,7 +203,7 @@
             android:layout_marginTop="16dp"
             android:text="Who were famous powerlifting champions?"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -245,7 +245,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Ed Coan" />
+                    android:text="Ed Coan"/>
 
                 <CheckBox
                     android:id="@+id/checkbox_malanichev"
@@ -266,7 +266,7 @@
             android:layout_marginTop="16dp"
             android:text="Powerlifters usually wear special powerlifting gear for meets. What is a powerlifting meet called when lifters do not wear that gear?"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/edit_text_view"
@@ -275,18 +275,18 @@
             android:layout_marginLeft="16dp"
             android:hint="Enter your answer"
             android:inputType="textCapWords"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/button_show_result"
-            android:onClick="showResult"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
+            android:onClick="showResult"
             android:text="Submit my answers!"
             android:textAllCaps="false"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
     </LinearLayout>
 </ScrollView>
