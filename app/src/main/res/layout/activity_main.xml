@@ -2,29 +2,21 @@
 
 <!--Hello World-->
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:context="com.example.android.powerliftingquiz.MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.powerliftingquiz.MainActivity"
 
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            style="@style/QuestionTextStyle"
             android:text="Which lifts are used in Powerlifting competitions?"
-            android:textAllCaps="false"
-            android:textSize="15sp"
-            android:textStyle="bold"
 
             />
 
@@ -52,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Overhead press"/>
+                    android:text="Overhead press" />
 
             </LinearLayout>
 
@@ -66,7 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Bench press"/>
+                    android:text="Bench press" />
 
                 <CheckBox
                     android:id="@+id/checkbox_deadlift"
@@ -80,14 +72,8 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
+            style="@style/QuestionTextStyle"
             android:text="How many attempts for each lift individual does a lifter get in a sanctioned competition?"
-            android:textSize="15sp"
-            android:textStyle="bold"
 
             />
 
@@ -126,14 +112,14 @@
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/radio_button_right_bottom"
                     android:layout_marginLeft="16dp"
-                    android:text="5"/>
+                    android:text="5" />
 
                 <RadioButton
                     android:id="@+id/radio_button_right_bottom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="3"/>
+                    android:text="3" />
             </RadioGroup>
 
         </LinearLayout>
@@ -145,18 +131,8 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:text="The year was 2008. Was powerlifting an Olympic sport?"
-            android:textSize="15sp"
-
-            android:textStyle="bold"
-
-            />
+            style="@style/QuestionTextStyle"
+            android:text="The year was 2008. Was powerlifting an Olympic sport?" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -196,14 +172,8 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Who were famous powerlifting champions?"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
+            style="@style/QuestionTextStyle"
+            android:text="Who were famous powerlifting champions?" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -245,7 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="16dp"
-                    android:text="Ed Coan"/>
+                    android:text="Ed Coan" />
 
                 <CheckBox
                     android:id="@+id/checkbox_malanichev"
@@ -259,14 +229,8 @@
         </LinearLayout>
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Powerlifters usually wear special powerlifting gear for meets. What is a powerlifting meet called when lifters do not wear that gear?"
-            android:textSize="15sp"
-            android:textStyle="bold"/>
+            style="@style/QuestionTextStyle"
+            android:text="Powerlifters usually wear special powerlifting gear for meets. What is a powerlifting meet called when lifters do not wear that gear?" />
 
         <EditText
             android:id="@+id/edit_text_view"
@@ -275,7 +239,7 @@
             android:layout_marginLeft="16dp"
             android:hint="Enter your answer"
             android:inputType="textCapWords"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/button_show_result"
@@ -287,6 +251,6 @@
             android:text="Submit my answers!"
             android:textAllCaps="false"
             android:textSize="15sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
     </LinearLayout>
 </ScrollView>
